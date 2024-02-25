@@ -111,8 +111,8 @@ let intervalId;
     
     
   document.querySelector('.js-my-move').innerHTML =  `you
-  <img src="../../images/${playerMove}-emoji.png" alt="" class="move-icon">
-  <img src="../../images/${computerMove}-emoji.png" alt="" class="move-icon">
+  <img src="images/${playerMove}-emoji.png" alt="" class="move-icon">
+  <img src="images/${computerMove}-emoji.png" alt="" class="move-icon">
   computer`;
   
   
