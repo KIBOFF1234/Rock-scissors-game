@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -5,9 +6,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>rock paper scissors game</title>
+  <title>rock paper scissors game</title>    
   
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" href="images/icons.png">
 </head>
 
 <body>
@@ -15,31 +17,15 @@
   <h2 class="heading">Rock Paper Scissors</h2>
 
 
-  <button onclick=" 
-   playerGame('rock') ;
-" class="js-rock-btn move-btn">
-    
-    <img src="images/rock-emoji.png" alt=""
-     class="move-icon">
+  <button  class="js-rock-btn move-btn">
+    <img src="images/rock-emoji.png" alt=""  class="move-icon">
   </button>
 
-
-
-
-  <button onclick="
-playerGame('paper') 
- " class="js-paper-btn move-btn">
-    
+  <button  class="js-paper-btn move-btn">
     <img src="images/paper-emoji.png" alt="" class="move-icon">
   </button>
 
-
-
-
-  <button onclick="
-  playerGame('scissors');
- " class="js-scissors-btn move-btn">
-    
+  <button  class="js-scissors-btn move-btn"> 
   <img src="images/scissors-emoji.png" alt="" class="move-icon">
   </button>
 
@@ -49,18 +35,15 @@ playerGame('paper')
 
  <p class="js-score score"></p>
  
- <button onclick="
-   resetScore();
-   
- " class="reset-score-btn">Reset score</button>
+ <button class="reset-score-btn  js-reset-btn">Reset score</button>
  
  
- <button class="auto-play-btn js-auto-play-btn"
-  onclick="
+ <button class="auto-play-btn js-auto-play-btn">Auto Play</button>
+
+ <div class="js-confirm-reset confirm-message">
   
-  changeText();
-    ">Auto Play</button>
-  <script src="main.js"></script>
+ </div>
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>
